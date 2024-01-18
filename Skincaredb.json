@@ -1,0 +1,410 @@
+[
+    {
+        "id":1,
+        "company": "The Ordinary",
+        "Image":"https://www.sephora.com/productimages/sku/s2031375-main-zoom.jpg?pb=2020-03-allure-best-2019&imwidth=175",
+        "Product":"Hyaluronic Acid 2% + B5 Hydrating Serum",
+        "Rating":4.1,
+        "Rating_count":"5.2k",
+        "Price":{
+            "p1":8.90
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Face",
+        "Skin_Type":"Dry",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":2,
+        "company": "Glow Recipe",
+        "Image":"https://www.sephora.com/productimages/sku/s2348431-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Watermelon Glow PHA + BHA Pore-Tight Toner",
+        "Rating":3.9,
+        "Rating_count":"5.5k",
+        "Price":{
+            "p1":16.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Face",
+        "Skin_Type":"Dry",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":3,
+        "company": "The Ordinary",
+        "Image":"https://www.sephora.com/productimages/sku/s2031391-main-zoom.jpg?imwidth=175",
+        "Product":"Niacinamide 10% + Zink 1% Oil Control Serum",
+        "Rating":4,
+        "Rating_count":"7k",
+        "Price":{
+            "p1":6.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Dry",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":4,
+        "company": "LANEIGE",
+        "Image":"https://www.sephora.com/productimages/sku/s1966258-main-zoom.jpg?imwidth=175",
+        "Product":"Lip Sleeping Mask Intense Hydration with Vitamin C",
+        "Rating":4.1,
+        "Rating_count":"17.3k",
+        "Price":{
+            "p1":24.00
+        },
+        "Gender":"Female",
+        "Product_For":"Lip",
+        "Skin_Type":"Both",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":5,
+        "company": "Touchland",
+        "Image":"https://www.sephora.com/productimages/sku/s2556744-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge&imwidth=175",
+        "Product":"Power Mist Hydrating Hand Sanitizer",
+        "Rating":4.2,
+        "Rating_count":"665",
+        "Price":{
+            "p1":10.00
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":6,
+        "company": "Glow Recipe",
+        "Image":"https://www.sephora.com/productimages/sku/s2404846-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Watermelon Glow Niacinamide Dew Drops Serum",
+        "Rating":3.8,
+        "Rating_count":"3.8k",
+        "Price":{
+            "p1":20.00
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Oily",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":7,
+        "company": "Drunk Elephant",
+        "Image":"https://www.sephora.com/productimages/sku/s2025633-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Protini Polypeptide Firming Refillable",
+        "Rating":4.1,
+        "Rating_count":"7.3k",
+        "Price":{
+            "p1":22.00
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":8,
+        "company": "Glow Recip",
+        "Image":"https://www.sephora.com/productimages/sku/s2421519-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Mini Watermelon Glow PHA + BHA pore-Tight Toner",
+        "Rating":4,
+        "Rating_count":"5.5k",
+        "Price":{
+            "p1":16.00
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Oily",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":9,
+        "company": "The Ordinary",
+        "Image":"https://www.sephora.com/productimages/sku/s2210581-main-zoom.jpg?imwidth=175",
+        "Product":"Natural Moisturizing Factors + HA",
+        "Rating":4.1,
+        "Rating_count":"2.3k",
+        "Price":{
+            "p1":6.90
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":10,
+        "company": "Drunk Elephant",
+        "Image":"https://www.sephora.com/productimages/sku/s2733939-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Bore Barrier Rich Repair Cream with 6-Butterlipid Complex",
+        "Rating":4.3,
+        "Rating_count":"498",
+        "Price":{
+            "p1":69.00
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Stragth/curly",
+        "Product_Type":"Moiturizer"
+    },
+    {
+        "id":11,
+        "company": "Youth To The People",
+        "Image":"https://www.sephora.com/productimages/sku/s1863588-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Superfood Gentle Antioxidant Refilable Cleanser",
+        "Rating":4,
+        "Rating_count":"6.3k",
+        "Price":{
+            "p1":16.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":12,
+        "company": "Gloe Recipe",
+        "Image":"https://www.sephora.com/productimages/sku/s2131803-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Blueberry Bounce Gntle Cleanser",
+        "Rating":3.7,
+        "Rating_count":"1.3k",
+        "Price":{
+            "p1":10.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Oily",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":13,
+        "company": "Tatcha",
+        "Image":"https://www.sephora.com/productimages/sku/s2382232-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"The rice Watch Skin-Softening Cleanser",
+        "Rating":4.2,
+        "Rating_count":"2.7k",
+        "Price":{
+            "p1":18.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Dry",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":14,
+        "company": "the INKEY List",
+        "Image":"https://www.sephora.com/productimages/sku/s2211605-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Salicylic Acid Acne + Blackhead Cleanser",
+        "Rating":4.1,
+        "Rating_count":"1.9k",
+        "Price":{
+            "p1":13.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":15,
+        "company": "Skinfix",
+        "Image":"https://www.sephora.com/productimages/sku/s2215929-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Barrier+ foaming Oil Hydrating Cleanser",
+        "Rating":4.4,
+        "Rating_count":"1.3k",
+        "Price":{
+            "p1":30.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Skin",
+        "Skin_Type":"Dry",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":16,
+        "company": "SEPHORA COLLECTION",
+        "Image":"https://www.sephora.com/productimages/sku/s2457976-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Clean skin gel Cleanser with Prebiotics",
+        "Rating":4.4,
+        "Rating_count":"533",
+        "Price":{
+            "p1":12.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Cleanser"
+    },
+    {"id":17,
+        "company": "SEPHORA COLLECTION",
+        "Image":"https://www.sephora.com/productimages/sku/s2558542-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Cleansing + Exfoliating Wipes",
+        "Rating":4,
+        "Rating_count":"505",
+        "Price":{
+            "p1":3.90
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Dry",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":18,
+        "company": "Fresh",
+        "Image":"https://www.sephora.com/productimages/sku/s2534675-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Soy Hydrating Gentle Face Cleanser",
+        "Rating":4.1,
+        "Rating_count":"8.3k",
+        "Price":{
+            "p1":16.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Dry",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":19,
+        "company": "Drunk Elephant",
+        "Image":"https://www.sephora.com/productimages/sku/s2022598-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Beste No 9 Jelly Cleanser",
+        "Rating":4,
+        "Rating_count":"2.8k",
+        "Price":{
+            "p1":16.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Oily",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":20,
+        "company": "Tatcha",
+        "Image":"https://www.sephora.com/productimages/sku/s2468916-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"the Deep Cleanse Gentle Exfoliating leanser",
+        "Rating":4.1,
+        "Rating_count":"2.3k",
+        "Price":{
+            "p1":8.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Skin",
+        "Skin_Type":"Both",
+        "Product_Type":"Cleanser"
+    },
+    {
+        "id":21,
+        "company": "Glossier",
+        "Image":"https://www.sephora.com/productimages/sku/s2649788-main-zoom.jpg?imwidth=175",
+        "Product":"Balm Dotcom Lip Balm and Skin Salve",
+        "Rating":3.1,
+        "Rating_count":"2.8k",
+        "Price":{
+            "p1":14.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Lip",
+        "Skin_Type":"Both",
+        "Product_Type":"Lip Balm"
+    },
+    {
+        "id":22,
+        "company": "Dior",
+        "Image":"https://www.sephora.com/productimages/sku/s2316248-main-zoom.jpg?imwidth=175",
+        "Product":"Lip glow oil",
+        "Rating":4.0,
+        "Rating_count":"2.1k",
+        "Price":{
+            "p1":40.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Lip",
+        "Skin_Type":"Both",
+        "Product_Type":"Lip Balm"
+    },
+    {
+        "id":23,
+        "company": "Shiseido",
+        "Image":"https://www.sephora.com/productimages/sku/s2435261-main-zoom.jpg?pb=allure-best-2021-badge&imwidth=175",
+        "Product":"Clear Sunscream Stick SPF 50",
+        "Rating":4.5,
+        "Rating_count":"1.7k",
+        "Price":{
+            "p1":32.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Face",
+        "Skin_Type":"Both",
+        "Product_Type":"Sunscream"
+    },
+    {
+        "id":24,
+        "company": "Summer Fridays",
+        "Image":"https://www.sephora.com/productimages/sku/s2536308-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"ShadeDrops Mineral Milk Sunscreen Spf 30",
+        "Rating":4.0,
+        "Rating_count":"1.3k",
+        "Price":{
+            "p1":36.0
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Face",
+        "Skin_Type":"Both",
+        "Product_Type":"Sunscream"
+    },
+    {
+        "id":25,
+        "company": "Supergoop!",
+        "Image":"https://www.sephora.com/productimages/sku/s2549756-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
+        "Product":"Mini GlowScreen SPF 40 With Hyaluronic Acid + Niacinamide",
+        "Rating":4,
+        "Rating_count":"2.0k",
+        "Price":{
+            "p1":22.00
+            
+        },
+        "Gender":"Male",
+        "Product_For":"Face",
+        "Skin_Type":"Both",
+        "Product_Type":"Sunscream"
+    },
+    {
+        "id":26,
+        "company": "Glow Recipe",
+        "Image":"https://www.sephora.com/productimages/sku/s2421519-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
+        "Product":"Mini Watermelon Glow PHA+ BHA Pore-tight Toner",
+        "Rating":4,
+        "Rating_count":"5.6k",
+        "Price":{
+            "p1":16.00
+            
+        },
+        "Gender":"Female",
+        "Product_For":"Face",
+        "Skin_Type":"Dry",
+        "Product_Type":"Moiturizer"
+    }
+]

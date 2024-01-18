@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Skincare</title>
+    <link rel="stylesheet" href="Skincare.css">
 </head>
 <body>
+    <!-- Heading Start -->
+    <h1>Skincare</h1>
+    <!-- Heading End -->
+
+    <!-- Display Data Start -->
+    <div id="prodFilters">
+        <div>
+            <h3>Filters</h3>
+            <label for="chooseRate">Choose rate:</label>
+            <select id="chooseRate" name="Rate">
+                <option value="">Select</option>
+                <optgroup label="Order">
+                    <option  onchange="sortPriceLowToHigh" value="Low To High">Low To High</option>
+                    <option  onclick="sortPriceHighToLow" value="High to Low">High to Low</option>
+                </optgroup>
+                <optgroup label="Custome">
+                    <option id="Below_10" value="Below10">Below 10</option>
+                    <option id="Below_25" value="Below25">Below 25</option>
+                    <option id="Above_25" value="above25">Above 25</option>
+                </optgroup>
+            </select>
+        </div>
+        <div id="product">
+            <h3></h3>
+            <h3>Products</h3>
+            <br>
+        </div>
+    </div>
     
 </body>
 </html>
+
+
+<script src="Skincare_script.js">
+
+</script>
