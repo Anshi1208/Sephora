@@ -30,6 +30,49 @@ body{
     margin-left: 25px;
     border-radius: 18px;
 }
+.owl-carousel{
+    position: relative;
+}
+.owl-nav{
+    position: absolute;
+    top:50%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 1000;
+   
+}
+.owl-prev, .owl-next{
+    background-color: black;
+    padding: 60px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    z-index: 1010;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60px;
+    width: 50px;
+}
+.owl-item{
+    position: relative;
+   
+}
+.owl-prev{
+   
+    left: 10px;
+}
+.owl-next{
+   
+    right: 10px;
+}
+.owl-carousel img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .navItem{
     margin: 25px;
     font-size: 16px;
@@ -78,11 +121,23 @@ body{
     border-radius: 8px;
 
 }
-.item img{
-    height: 340px;
-    margin-top: 15px;
-    margin-left: 10px;
+.item{
+    background-color: black;
+    margin-left: 12px;
+    height: 450px;
 }
+.item img{
+    height: 70%;
+    width:100%;
+    margin-top: 15px;
+    
+}
+.item > h3, .item p{
+    margin-left: 20px;
+    color: white;
+    margin-top: 8px;
+}
+
 .third_box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
