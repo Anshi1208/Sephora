@@ -49,31 +49,140 @@ body{
 }
 .mainNav ul li {
     padding : 15px;
-    margin-left: 25px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .mainNav ul li a {
     text-decoration : none;
     color: inherit;
     
 }
-.wrapper {
-    max-width: 1200px;
+.item-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.wrapper .carousel {
-    white-space: nowrap;
-    cursor: pointer;
-    font-size: 0px;
+#Choosen-sec{
+    margin-right: 1100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.quick-look{
+    display: flex;
+    flex-direction : column;
     
+    width: 300px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+.item img{
+    height: 340px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.third_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 15px;
+   margin: 10px;
+   height: auto;
+}
+.third_parent1{
+    
+    margin: 10px;
+    background-color: #502284 ;
+    color: white;
+   
+   
+}
+.third_parent2{
+   
+    margin: 7px;
+    background-color: #5DB7B5;
+    color: black;
+   
+}
+.third_parent3{
+   
+    margin: 8px;
+    background-color: #558FCD;
+    color: white;
+   
+}
+.third_parent1 > img{
+    height: 65%;
+    width: 100%;
+
     
 }
-.carousel img{
-    height: 400px;
-    width : calc(100% / 2.3);
-    object-fit: cover;
-    margin-left: 8px;
-    border-radius: 9px;
-    margin-top: 8px;
+.third_parent2 > img{
+    height: 65%;
+    width: 100%;
+
+    
 }
+.third_parent3 > img{
+    height: 65%;
+    width: 100%;
+
+    
+}
+.third_box2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 15px;
+   margin: 10px;
+   height: auto;
+}
+.third_parent4{
+    
+    margin: 10px;
+    background-color: #F2F2F2 ;
+    color: black;
+   
+}
+.third_parent5{
+   
+    margin: 7px;
+    background-color: #BDDCEE;
+    color: black;
+   
+}
+.third_parent6{
+   
+    margin: 8px;
+    background-color:#F28280;
+    color: black;
+   
+}
+.third_parent4 > img{
+    height: 65%;
+    width: 100%;
+
+    
+}
+.third_parent5 > img{
+    height: 65%;
+    width: 100%;
+
+    
+}
+.third_parent6 > img{
+    height: 65%;
+    width: 100%;
+
+    
+}
+#head_id{
+    padding-left: 15px;
+}
+
+
+
 
 
