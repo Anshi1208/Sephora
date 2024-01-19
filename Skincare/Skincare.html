@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skincare</title>
     <link rel="stylesheet" href="Skincare.css">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="../Style.css">
 </head>
 <body>
     <!--Promotional Top Section-->
@@ -37,9 +37,9 @@
             <li><a href="#">New</a></li>
             <li><a href="#">Brands</a></li>
             <li><a href="#">Makeup</a></li>
-            <li><a href="./Skincare.html">SkinCare</a></li>
-            <li><a href="./Hair.html">Hair</a></li>
-            <li><a href="./Fragrance.html">Fragrance</a></li>
+            <li><a href="Skincare.html">SkinCare</a></li>
+            <li><a href="../Hair/Hair.html">Hair</a></li>
+            <li><a href="../Fragrance/Fragrance.html">Fragrance</a></li>
             <li><a href="#">Tools & Brushes</a></li>
             <li><a href="#">Sale & Offers</a></li>
             <li><a href="#">Mini Size</a></li>
@@ -61,17 +61,12 @@
         <div>
             <h3>Filters</h3>
             <label for="chooseRate">Choose rate:</label>
-            <select id="chooseRate" name="Rate">
+            <select id="chooseRate" onchange="sortPrice()">
                 <option value="">Select</option>
-                <optgroup label="Order">
-                    <option  onchange="sortPriceLowToHigh" value="Low To High">Low To High</option>
-                    <option  onclick="sortPriceHighToLow" value="High to Low">High to Low</option>
-                </optgroup>
-                <optgroup label="Custome">
-                    <option id="Below_10" value="Below10">Below 10</option>
-                    <option id="Below_25" value="Below25">Below 25</option>
-                    <option id="Above_25" value="above25">Above 25</option>
-                </optgroup>
+                
+                    <option value="1">Low To High</option>
+                    <option value="2">High to Low</option>
+                
             </select>
         </div>
         <div id="product">
