@@ -1,0 +1,29 @@
+#prodFilters{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 20px;
+}
+
+
+#product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+#product > div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    
+}
+#product >h3{
+    text-align: center;
+    color: red;
+}
+
+#product > div> img{
+    
+    text-align: center;
+}
