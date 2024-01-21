@@ -1,7 +1,17 @@
+// log in Authenticated Start
 
+let isAuth =localStorage.getItem("isAutho") ||"Not Authenticated"
 
+if(isAuth !== "Authenticated"){
+    
+    window.location.href="../signUp_LogIn/SignUp.html"
+    
+}
+// log in Authenticated Start
 
 let productDiv =document.getElementById("product")
+
+let mainData =[]
 
 
 // function for display the product form data json and give divin html file
@@ -23,74 +33,204 @@ function displayProduct(data){
         rate.innerText=`✬ ${obj.Rating}   ${obj.Rating_count}`;
 
         let price=document.createElement("p");
-        price.innerText=`$ ${obj.Price.p1}`
+        price.innerText=`$ ${obj.Price}`
 
+        let button=document.createElement("button")
+        button.innerText = "Add to Bucket";
 
-        div.append(img,comName,prodName,rate,price)
+        button.onclick= function(){
+            addToCart(obj)
+        }
+        
+        div.append(img,comName,prodName,rate,price, button)
         productDiv.append(div)
     });
 }
 
 fetch("./Skincaredb.json")
-    .then((res)=>res.json())
-    .then((data)=>displayProduct(data))
-    .catch((err)=>console.log(err))
+.then((res)=>res.json())
+.then((data)=>{
+    mainData = data
+    displayProduct(data)})
+.catch((err)=>console.log(err))
 
 
-    // Here we resive value from select and according if we call function
+
+
+// Here we resive value from select and according if we call function
+// Function 1 Price Filter Start
 function sortPrice(){
-
-    let sortBy =document.getElementById("chooseRate").value
-
-    
+    console.log(1)
+    let sortBy =document.getElementById("choosePrice").value
     let a=sortBy.toString()
 
     if(a==1){
-        
+        console.log(1)
         sortPriceLowToHigh()
 
     }else if(a==2){
         
         sortPriceHighToLow()
     }
+}
 
+    // sort low to high
+function sortPriceLowToHigh(){
+        
+    // sorting data according to price
+    mainData.sort(function(a,b){
+        return a.Price - b.Price
+   })
+   // privius data will null
+   productDiv.innerHTML=null
+   displayProduct(mainData)
     
 }
 
-    
-    function sortPriceLowToHigh(){
+// sort high to low
+function sortPriceHighToLow(){
         
-        // sorting data according to price
-        fetch("Skincaredb.json")
-        .then((res)=>res.json())
-        .then((data)=>{
-            data.sort(function(a,b){
-                return a.Price.p1 - b.Price.p1
-            })
-            // privius data will null
-            productDiv.innerHTML=null
-            displayProduct(data)
-        })
-        .catch((err)=>console.log(err))
+    // sorting data according to price
+    mainData.sort(function(a,b){
+        return b.Price - a.Price
+    })
+    // privius data will null
+    productDiv.innerHTML=null
+    displayProduct(mainData)
     
+}
+// Function 1 Price Filter End
+
+
+
+
+// Here we resive value from select and according if we call function
+// Function 2 Rating  Filter Start
+function sortRating(){
+
+    let sortBy =document.getElementById("chooseRating").value
+    let a=sortBy.toString()
+    
+    if(a==1){
+            
+        sortRatingLowToHigh()
+    
+    }else if(a==2){
+            
+        sortRatingHighToLow()
     }
-
-
-    function sortPriceHighToLow(){
+}
+    
+    // sort low to high
+function sortRatingLowToHigh(){
+            
+    // sorting data according to Rating
+    mainData.sort(function(a,b){
+        return a.Rating - b.Rating
+    })
+    // privius data will null
+    productDiv.innerHTML=null
+    displayProduct(mainData)
         
-        // sorting data according to price
-        fetch("./Skincaredb.json")
-        .then((res)=>res.json())
-        .then((data)=>{
-            data.sort(function(a,b){
-                return b.Price.p1 - a.Price.p1
-            })
-            // privius data will null
-            productDiv.innerHTML=null
-            displayProduct(data)
-        })
-        .catch((err)=>console.log(err))
+}
     
+// sort high to low
+function sortRatingHighToLow(){
+            
+    // sorting data according to Rating
+    mainData.sort(function(a,b){
+        return b.Rating - a.Rating
+    })
+    // privius data will null
+    productDiv.innerHTML=null
+    displayProduct(mainData)
+        
+}
+// Function 2 Rating Filter End
+
+
+
+// Here we resive value from select and according if we call function
+// Function 3 Gender  Filter Start
+function sortGender(){
+
+    let sortBy =document.getElementById("chooseGender").value
+    let a=sortBy.toString()
+        
+    if(a==1){
+                
+        sortMale(mainData)
+        
+    }else if(a==2){
+                
+        sortFemale(mainData)
     }
+}
+        
+// sort low to high
+function sortMale(data){
+    productDiv.innerHTML=null
+    data.filter((obj)=>{
+                    
+    if(obj.Gender=="Male"){
+                        
+        return displayProduct([obj])
+                        
+    }
+    })
+}
+        
+// sort high to low
+function sortFemale(data){
+            
+    productDiv.innerHTML=null
+    data.filter((obj)=>{
+                
+    if(obj.Gender=="Female"){
+                    
+        return displayProduct([obj])
+                    
+    }
+    })
+}
+// Function 3 gender Filter End
+
+// sort according to New Start
+
+function newSort(){
+    productDiv.innerHTML=null
+    mainData.filter((obj)=>{
+
+        if(obj.Category=="New"){
+            return displayProduct([obj])
+        }
+    })
+
+}
+// sort according to New end
+
+function moisturiser(){
+    productDiv.innerHTML=null
+    mainData.filter((obj)=>{
+
+        if(obj.Product_Type=="Moiturizer"){
+            return displayProduct([obj])
+        }
+    })
+
+}
 
 
+
+// sort according to New Start
+
+
+// function add to cart start
+function addToCart(obj){
+    
+    let cartDetails = JSON.parse(localStorage.getItem("cartDetails"))|| []
+    cartDetails.push(obj)
+    localStorage.setItem("cartDetails", JSON.stringify(cartDetails))
+
+}
+// function add to cart end

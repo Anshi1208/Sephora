@@ -1,7 +1,8 @@
 [
     {
         "id":1,
-        "company": "Carolina Herrera",
+
+"Category":"New",        "company": "Carolina Herrera",
         "Image":"https://www.sephora.com/productimages/sku/s2691095-main-zoom.jpg?imwidth=175",
         "Product":"Mini Good Girl Blush Eau de Parfum",
         "Rating":4.1,
@@ -12,7 +13,8 @@
     },
     {
         "id":2,
-        "company": "Sol de Janeiro",
+
+"Category":"New",        "company": "Sol de Janeiro",
         "Image":"https://www.sephora.com/productimages/sku/s1930759-main-zoom.jpg?imwidth=175",
         "Product":"Brazilian Crush Cheirosa '62 Bum Bum Hair & Body Fragrance Mist",
         "Rating":4.1,
@@ -23,7 +25,8 @@
     },
     {
         "id":3,
-        "company": "CHANEL",
+
+"Category":"New",        "company": "CHANEL",
         "Image":"https://www.sephora.com/productimages/sku/s1237379-main-zoom.jpg?imwidth=175",
         "Product":"CHANCE EAU TENDRE Eau de Toilette",
         "Rating":4.4,
@@ -34,7 +37,8 @@
     },
     {
         "id":4,
-        "company": "CHANEL",
+
+"Category":"New",        "company": "CHANEL",
         "Image":"https://www.sephora.com/productimages/sku/s513168-main-zoom.jpg?imwidth=175",
         "Product":"COCO MADEMOISELLE EAU de Parfum",
         "Rating":4.3,
@@ -45,7 +49,8 @@
     },
     {
         "id":5,
-        "company": "BURBERRY",
+
+"Category":"New",        "company": "BURBERRY",
         "Image":"https://www.sephora.com/productimages/sku/s2689644-main-zoom.jpg?imwidth=250",
         "Product":"Burberry Goddess Eau de Parfum",
         "Rating":4.2,
@@ -56,7 +61,8 @@
     },
     {
         "id":6,
-        "company": "BURBERRY",
+
+"Category":"New",        "company": "BURBERRY",
         "Image":"https://www.sephora.com/productimages/sku/s2160455-main-zoom.jpg?imwidth=175",
         "Product":"Her Eau de Parfum",
         "Rating":4.1,
@@ -67,7 +73,8 @@
     },
     {
         "id":7,
-        "company": "Valentino",
+
+"Category":"New",        "company": "Valentino",
         "Image":"https://www.sephora.com/productimages/sku/s2249688-main-zoom.jpg?imwidth=175",
         "Product":"Donna Born in Roma de Parfum",
         "Rating":4.2,
@@ -78,7 +85,8 @@
     },
     {
         "id":8,
-        "company": "GUERLAIN",
+
+"Category":"New",        "company": "GUERLAIN",
         "Image":"https://www.sephora.com/productimages/sku/s1915537-main-zoom.jpg?imwidth=175",
         "Product":"Mon Guerlain Eau de Parfum",
         "Rating":4.1,
@@ -89,6 +97,7 @@
     },
     {
         "id":9,
+        "Category":"New",        
         "company": "Sephora Favorites",
         "Image":"https://www.sephora.com/productimages/sku/s2733962-main-zoom.jpg?imwidth=175",
         "Product":"Best-Selling Perfume Discovery Set",
@@ -100,6 +109,7 @@
     },
     {
         "id":10,
+        "Category":"New",
         "company": "Viktor&Rolf",
         "Image":"https://www.sephora.com/productimages/sku/s1377159-main-zoom.jpg?imwidth=175",
         "Product":"Flowerbomb Eau de Parfum",
@@ -111,6 +121,7 @@
     },
     {
         "id":11,
+        "Category":"New",
         "company": "CHANEL",
         "Image":"https://www.sephora.com/productimages/sku/s1695972-main-zoom.jpg?imwidth=175",
         "Product":"BLEU DE CHANEL Eau de Parfum",
@@ -122,6 +133,7 @@
     },
     {
         "id":12,
+        "Category":"New",
         "company": "Versace",
         "Image":"https://www.sephora.com/productimages/sku/s1513225-main-zoom.jpg?imwidth=175",
         "Product":"Eros",
@@ -133,6 +145,7 @@
     },
     {
         "id":13,
+        "Category":"New",
         "company": "Valentino",
         "Image":"https://www.sephora.com/productimages/sku/s2639821-main-zoom.jpg?imwidth=175",
         "Product":"Uomo Born In Roma Intense Eau de Parfume",
@@ -144,6 +157,7 @@
     },
     {
         "id":14,
+        "Category":"Old",
         "company": "Maison Margiela",
         "Image":"https://www.sephora.com/productimages/sku/s1602259-main-zoom.jpg?imwidth=175",
         "Product":"REPLICA' Jazz Club Eau de Toilette",
@@ -155,6 +169,7 @@
     },
     {
         "id":15,
+        "Category":"Old",
         "company": "Rabanne",
         "Image":"https://www.sephora.com/productimages/sku/s1200773-main-zoom.jpg?imwidth=175",
         "Product":"1 Million Eau de Toilette",
@@ -166,6 +181,7 @@
     },
     {
         "id":16,
+        "Category":"Old",
         "company": "Dior",
         "Image":"https://www.sephora.com/productimages/sku/s1739317-main-zoom.jpg?imwidth=175",
         "Product":"Sauvage Eau de Toilette",
@@ -176,6 +192,7 @@
         "Product_Type":"Perfume"
     },
     {"id":17,
+    "Category":"Old",
         "company": "Prada",
         "Image":"https://www.sephora.com/productimages/sku/s2470086-main-zoom.jpg?imwidth=175",
         "Product":"Luna Rossa Ocean Eau de Toilette",
@@ -187,6 +204,7 @@
     },
     {
         "id":18,
+        "Category":"Old",
         "company": "Dolce&Gabbana",
         "Image":"https://www.sephora.com/productimages/sku/s1019991-main-zoom.jpg?imwidth=175",
         "Product":"Light Blue Pour Homme Eau de Toilette spray",
@@ -198,6 +216,7 @@
     },
     {
         "id":19,
+        "Category":"Old",
         "company": "Yves Saint Laurent",
         "Image":"https://www.sephora.com/productimages/sku/s2706273-main-zoom.jpg?imwidth=175",
         "Product":"MYSLF Eau de Parfum",
@@ -209,6 +228,7 @@
     },
     {
         "id":20,
+        "Category":"Old",
         "company": "Tom FORD",
         "Image":"https://www.sephora.com/productimages/sku/s2101319-main-zoom.jpg?imwidth=175",
         "Product":"Tabacoo Vanillle Eau de Parfum Fragrance",
@@ -220,6 +240,7 @@
     },
     {
         "id":21,
+        "Category":"Old",
         "company": "Glossier",
         "Image":"https://www.sephora.com/productimages/sku/s2649770-main-zoom.jpg?imwidth=175",
         "Product":"Mimi Honey Infused Hair Oil",
@@ -231,6 +252,7 @@
     },
     {
         "id":22,
+        "Category":"Old",
         "company": "Juliette Has a Gun",
         "Image":"https://www.sephora.com/productimages/sku/s2648624-main-zoom.jpg?imwidth=175",
         "Product":"Mini Lust For Sun & Not A Perfume Travel Set",
@@ -242,6 +264,7 @@
     },
     {
         "id":23,
+        "Category":"Old",
         "company": "KAYALI",
         "Image":"https://www.sephora.com/productimages/sku/s2697050-main-zoom.jpg?imwidth=175",
         "Product":"OUDGASM VANILLA OUD | 36 Eau de Parfum Intense Travel Spray",
@@ -253,6 +276,7 @@
     },
     {
         "id":24,
+        "Category":"Old",
         "company": "Maison Margiela",
         "Image":"https://www.sephora.com/productimages/sku/s2650711-main-zoom.jpg?imwidth=175",
         "Product":"'REPLICA'Mini coffret Set",
@@ -264,6 +288,7 @@
     },
     {
         "id":25,
+        "Category":"Old",
         "company": "PHLUR",
         "Image":"https://www.sephora.com/productimages/sku/s2630218-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
         "Product":"Tangerine'Boy Eaude Parfum",

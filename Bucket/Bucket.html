@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket</title>
+    <style>
+
+        h1{
+            text-align: center;
+            font-family: sans-serif, Arial;
+
+        }
+        h3{
+            font-family: sans-serif, Arial;
+        }
+        #img{
+            width: 30px;
+        }
+
+        #cartProduct{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 80px;
+        }
+        #cartProduct > div {
+    
+            padding:15px;
+    
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Cart <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkIKw4m3tR1wq4cgUv8SZLJK0Pi0VaE9j_bNVmbEtIYLn2PJbzMFd&usqp=CAE&s" alt=""></h1>
+    <h3 id="cartTotal"></h3>
+    <div id="cartProduct"></div>
+</body>
+</html>
+
+<script>
+    let cartTotal=document.getElementById("cartTotal")
+    let cartProduct = document.getElementById("cartProduct")
+    let cartDetails=JSON.parse(localStorage.getItem("cartDetails")) || []
+
+    displayProduct(cartDetails)
+
+    cartTotalPrice(cartDetails)
+
+    function cartTotalPrice(data){
+        let total=data.reduce(function(accu, ele){
+            return accu + ele.Price
+        },0)
+        cartTotal.innerText=`Total Amount : $${total}`
+    }
+
+function displayProduct(data){
+    data.forEach((obj, index) => {
+        let div=document.createElement("div");
+        
+        let img=document.createElement("img");
+        img.src=obj.Image;
+        img.style.height="200px"
+
+        let comName=document.createElement("h5");
+        comName.innerText=obj.company;
+
+        let prodName=document.createElement("p");
+        prodName.innerText=obj.Product;
+
+        let rate=document.createElement("p");
+        rate.innerText=`✬ ${obj.Rating}   ${obj.Rating_count}`;
+
+        let price=document.createElement("p");
+        price.innerText=`$ ${obj.Price}`
+
+        let button=document.createElement("button")
+        button.innerText = "Remove From Bucket";
+
+        button.onclick = function() {
+                removeFromCart(index)
+
+
+        }
+        
+
+
+        div.append(img,comName,prodName,rate,price, button)
+        cartProduct.append(div)
+    })
+
+}
+function removeFromCart(index) {
+
+        cartDetails.splice(index, 1);
+
+
+        localStorage.setItem("cartDetails", JSON.stringify(cartDetails));
+
+        cartProduct.innerHTML = "";
+
+        displayProduct(cartDetails);
+
+        cartTotalPrice(cartDetails)
+}
+
+
+</script>

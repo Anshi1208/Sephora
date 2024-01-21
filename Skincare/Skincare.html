@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skincare</title>
+    <link rel="shortcut icon" type="x-icon" href="https://1000logos.net/wp-content/uploads/2018/08/Sephora-symbol.jpg">
+
     <link rel="stylesheet" href="Skincare.css">
     <link rel="stylesheet" href="../Style.css">
+    <!-- <link rel="stylesheet" href="../signUp_LogIn/SignUp.html"> -->
 </head>
 <body>
     <!--Promotional Top Section-->
@@ -17,11 +20,12 @@
     <!--Main Brand Nav Section-->
     <div class="main-nav" >
         <div class="logo">S E P H O R A</div>
-        <input type="text" class="searchBar" placeholder="Search your Items Here......">
+       
+        <input type="text" class="searchBar" placeholder="Search......">
         <div class="navItem">Stores & Services <span class="emoji"></span>
     </div>
         <div class="navItem">Community <span class="emoji"></span></div>
-        <div class="navItem">Sign In <span class="emoji"></span></div>
+        <div class="navItem"><a href="../Bucket/Bucket.html">Bucket</a><span></span></div>
         <span></span>
         <span></span>
         <span></span>
@@ -34,9 +38,9 @@
     <!--Navbar Section-->
     <nav class="mainNav">
         <ul>
-            <li><a href="#">New</a></li>
+            <li><a href="../New/New.html">New</a></li>
             <li><a href="#">Brands</a></li>
-            <li><a href="#">Makeup</a></li>
+            <li><a href="../Makeup/Makeup.html">Makeup</a></li>
             <li><a href="Skincare.html">SkinCare</a></li>
             <li><a href="../Hair/Hair.html">Hair</a></li>
             <li><a href="../Fragrance/Fragrance.html">Fragrance</a></li>
@@ -53,28 +57,290 @@
 
 
     <!-- Heading Start -->
-    <h1>Skincare</h1>
+    
     <!-- Heading End -->
 
     <!-- Display Data Start -->
     <div id="prodFilters">
         <div>
+            <h3>Skincare</h3>
+            <!-- buttons start -->
+            <div><button onclick="moisturiser()" class="filtButtonVertical">Moisturizers</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Cleansers</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Treatment</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Masks</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Eye Care</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Lip Balms & Treatments</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Sunscreen</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Self Tanners</button></div>
+            <br>
+            <div><button class="filtButtonVertical">High Tech Tools</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Wellness</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Shop by Concern</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Vegan</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Value & Gift Sets</button></div>
+            <br>
+            <div><button class="filtButtonVertical">Mini Size</button></div>
+            <br>
+            <div><button class="filtButtonVertical">FSA & HSA Eligible</button></div>
+            <br>
+            <br>
+            
+
+        
+            <!-- buttons end -->
+
+            <!-- filter for rate -->
             <h3>Filters</h3>
-            <label for="chooseRate">Choose rate:</label>
-            <select id="chooseRate" onchange="sortPrice()">
+            <label class="lable" for="choosePrice">Choose Price</label>
+            <select id="choosePrice" class="select" onchange="sortPrice()">
                 <option value="">Select</option>
                 
                     <option value="1">Low To High</option>
                     <option value="2">High to Low</option>
                 
             </select>
+            <br><br>
+
+            <!-- filter for rate -->
+            <label class="lable" for="chooseRating">Choose Rating</label>
+            <select id="chooseRating" class="select" onchange="sortRating()">
+                <option value="">Select</option>
+                
+                    <option value="1">Low To High</option>
+                    <option value="2">High to Low</option>
+                
+            </select>
+            <br><br>
+
+
+             <!-- filter for Gender -->
+             <label class="lable" for="chooseGender">Choose Gender</label>
+             <select id="chooseGender" class="select" onchange="sortGender()">
+                 <option value="">Select</option>
+                 
+                     <option value="1">Men</option>
+                     <option value="2">Women</option>
+                     
+                 
+             </select>
+             <br><br>
         </div>
+
         <div id="product">
-            <h3></h3>
-            <h3>Products</h3>
-            <br>
+            <!-- buttons start -->
+            <div class="filtButtonHorizontal">
+                <button onclick="newSort()" class="customButton">
+                    <span class="buttonText">New</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/new.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Beststsellers</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/bestsellers.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Clean</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/clean_beauty32.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Vegan</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/Icon_Vegan.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Mini Size</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/minis.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Sephora Collection</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/sephoracollection.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Skincare Quiz</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/skincare_quiz.svg" alt=""> 
+            </button></div>
+            <div class="filtButtonHorizontal">
+                <button class="customButton">
+                    <span class="buttonText">Skin Routine Quiz</span> <img class="buttonImg" src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/skincare_age.svg" alt=""> 
+            </button></div>
+            <!-- buttons end -->
+            
+            
+            
         </div>
     </div>
+        <!--Footer-->
+        <div class="footer_promo">
+            <p>Website Feedback ? Let us know</p>
+        </div>
+        <footer class="footer">
+           
+    
+            <div class="container">
+    
+                <div class="row">
+                    <div class="footer_upper">
+                        <img src="https://www.sephora.com/img/ufe/icons/find-store.svg" alt=""><span>&nbsp;Find a Store</span>
+                        <p>Choose Your Store</p>
+    
+                    </div>
+                    <div class="footer_upper1">
+                        <img src="https://www.sephora.com/img/ufe/icons/sms-ko.svg" alt=""><span>&nbsp;Customer Service</span>
+                        <p>Chat is Unavailiable</p>
+    
+                    </div>
+                    
+                    <div class="footer_upper1">
+                        <img src="https://www.sephora.com/img/ufe/icons/app.svg" alt=""><span>&nbsp;Get the app</span>
+                        &nbsp;<p>Download Now</p>
+    
+                    </div>
+                    <div class="footer_upper1">
+                        <img src="https://www.sephora.com/img/ufe/icons/cc-outline-ko.svg" alt=""><span>&nbsp;Sephora Credit card program</span>
+                        &nbsp;<p>Sign up Now</p>
+    
+                    </div>
+                   
+    
+                    <hr style="width:98%; color: white; margin-bottom:22px;">
+                    <div class="footer_col">
+                        <h4>About Sephora</h4>
+                        <ul>
+                            <li><a href="#">About Sephora</a></li>
+                            <li><a href="#">Newsroom</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Sephora Values</a></li>
+                            <li><a href="#">Supply Chain Transparency</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Sephora Events</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Sephora Global Sites</a></li>
+                            <li><a href="#">Diversity, Equity & Inclusion</a></li>
+                            <li><a href="#">Sephora Accelerate</a></li>
+                            <li><a href="#">Beauty(Re)Purposed</a></li>
+                            <li><a href="#">Report a Vulnerability</a></li>
+                            
+    
+                        </ul>    
+                    </div>
+                    <div class="footer_col">
+                        <h4>My Sephora</h4>
+                        <ul>
+                            <li><a href="#">Beauty Insider</a></li>
+                            <li><a href="#">Sephora Credit Card</a></li>
+                            <li><a href="#">Community  Profile</a></li>
+                            <li><a href="#">Order status</a></li>
+                            <li><a href="#">Purchase History</a></li>
+                            <li><a href="#">Account Settings</a></li>
+                            <li><a href="#">Beauty Advisor</a></li>
+                            <li><a href="#">Beauty Offers</a></li>
+                            <li><a href="#">Quizzes & buying guides</a></li>
+    
+                            <li><a href="#">Rewards Bazaar</a></li>
+                            <li><a href="#">Loves</a></li>
+                            <li><a href="#">Book a Reservation</a></li>
+    
+                            
+    
+                        </ul>    
+                    </div>
+                    <div class="footer_col">
+                        <h4>Help</h4>
+                        <ul>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Returns & Exchange</a></li>
+                            <li><a href="#">Delivery & Pickup options</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Billing</a></li>
+                            <li><a href="#">International shipments</a></li>
+                            <li><a href="#">Beaty Services FAQ</a></li>
+                            <li><a href="#">Sephora at Kohli's</a></li>
+                            <li><a href="#">Store Locations</a></li>
+                            <li><a href="#">Online Ordering</a></li>
+                            <li><a href="#">Klama & Afterpay</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>    
+                    </div>
+                    
+                        <div class="footer_col">
+                            <h4>Region & Language</h4>
+                            <ul>
+                                <li><a href="#"><img src="https://www.sephora.com/img/ufe/flags/us.svg" class="logo_footer"> &nbsp;United States - English</a></li>
+                                <li><a href="#"><img src="https://www.sephora.com/img/ufe/flags/ca.svg" class="logo_footer"> &nbsp;Canada - English</a></li>
+                                <li><a href="#"><img src="https://www.sephora.com/img/ufe/flags/ca.svg" class="logo_footer"> &nbsp;Canada - Francais</a></li>
+                                
+                            </ul>    
+                        </div>
+                        
+                   
+                    <div class="footer_col">
+                        <div class="mainfooter_div">
+                            <div class="footer_col1">
+                                <h2>We Belong to Something Beautifull</h2>
+                            </div>
+                            <div class="form-container">
+                                <div class="form">
+                                    <div>
+                                        <label for="">Sign up Sephora Text Updates</label>
+                                        <input type="text" class="form-input" placeholder="Enter value for Text Box 1">
+                                    </div>
+                                    <button type="button" class="continue-btn">Continue</button>
+                                </div>
+                        
+                                <br>
+                        
+                                <div class="form">
+                                    <div>
+                                        <label for="">Sign up For Sephora mail</label>
+                                        <input type="text" class="form-input" placeholder="Enter value for Text Box 2">
+                                    </div>
+                                    <button type="button" class="continue-btn">SignUp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr style="width:99%; color: white; margin-top:22px;">
+                    <div class="footer_down">
+                        <div class="footer_down1">
+                            <p>@2024 Sephora USA, Inc. All rights Reserved.</p>
+                            <span>Privacy & Policy</span> &nbsp;
+                            <span> Terms of use</span>  &nbsp;
+                            <span>Accessibility</span>  &nbsp;
+                            <span> Sitemap</span>  &nbsp;
+                            <span>Your Privacy Choices</span> &nbsp;
+                            <br>
+                           <span>1-877-737-4632</span> &nbsp;
+                           <span>TTY:1-888-866-9845</span>
+                        </div>
+                            
+    
+                        <div class="footer_down_social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-snapchat"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    
+    
+                </div>
+            </div>
+        </footer>
+        <!---Footer End-->
+    
     
 </body>
 </html>

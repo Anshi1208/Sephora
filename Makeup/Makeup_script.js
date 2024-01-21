@@ -1,6 +1,6 @@
 // log in Authenticated Start
 let isAuth =localStorage.getItem("isAutho") ||"Not Authenticated"
-console.log(isAuth)
+
 if(isAuth !== "Authenticated"){
     
     window.location.href="../signUp_LogIn/SignUp.html"
@@ -10,7 +10,8 @@ if(isAuth !== "Authenticated"){
 
 let productDiv =document.getElementById("product")
 
-let mainData=[]
+let mainData =[]
+
 
 // function for display the product form data json and give divin html file
 function displayProduct(data){
@@ -46,12 +47,12 @@ function displayProduct(data){
     });
 }
 
-fetch("./Hairdb.json")
-    .then((res)=>res.json())
-    .then((data)=>{
-        mainData=data
-        displayProduct(data)})
-    .catch((err)=>console.log(err))
+fetch("Makeupdb.json")
+.then((res)=>res.json())
+.then((data)=>{
+    mainData=data
+    displayProduct(data)})
+.catch((err)=>console.log(err))
 
 
 // Here we resive value from select and according if we call function
@@ -76,7 +77,7 @@ function sortPriceLowToHigh(){
         
     // sorting data according to price
     mainData.sort(function(a,b){
-        return a.Price - b.Price
+        return a.Price- b.Price
    })
    // privius data will null
    productDiv.innerHTML=null
@@ -193,6 +194,7 @@ function sortFemale(data){
 // Function 3 gender Filter End
 
 // sort according to New Start
+
 function newSort(){
     productDiv.innerHTML=null
     mainData.filter((obj)=>{
@@ -201,14 +203,15 @@ function newSort(){
             return displayProduct([obj])
         }
     })
+
 }
 // sort according to New end
 
-function shampoo(){
+function women(){
     productDiv.innerHTML=null
     mainData.filter((obj)=>{
 
-        if(obj.Product_Type=="Shampoo"){
+        if(obj.Gender=="Female"){
             return displayProduct([obj])
         }
     })
@@ -224,3 +227,4 @@ function addToCart(obj){
 
 }
 // function add to cart end
+

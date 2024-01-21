@@ -1,6 +1,7 @@
 [
     {
         "id":1,
+        "Category":"New",
         "company": "Gisou",
         "Image":"https://www.sephora.com/productimages/sku/s2380285-main-zoom.jpg?pb=allure-2023-bestofbeauty-badge&imwidth=175",
         "Product":"Mimi Honey Infused Hair Oil",
@@ -14,6 +15,7 @@
     },
     {
         "id":2,
+        "Category":"New",
         "company": "COLOR WOW",
         "Image":"https://www.sephora.com/productimages/sku/s2442200-main-zoom.jpg?imwidth=175",
         "Product":"Mimi Honey Infused Hair Oil",
@@ -27,6 +29,7 @@
     },
     {
         "id":3,
+        "Category":"New",
         "company": "Necessaire",
         "Image":"https://www.sephora.com/productimages/sku/s2608719-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge&imwidth=175",
         "Product":"The Shampoo - Scalp Cleanse With Hyaluronic Acid + Nicinamide For Thinning Hair",
@@ -40,7 +43,8 @@
     },
     {
         "id":4,
-        "company": "Living Proof",
+
+"Category":"New",        "company": "Living Proof",
         "Image":"https://www.sephora.com/productimages/sku/s2688513-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
         "Product":"Perfect Hair Day Shampoo, Conditioner & Hair Mask Set",
         "Rating":4.5,
@@ -53,7 +57,8 @@
     },
     {
         "id":5,
-        "company": "amika",
+
+"Category":"New",        "company": "amika",
         "Image":"https://www.sephora.com/productimages/sku/s2673986-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
         "Product":"Mirrorball high Shine + Protect Antioxidant Shampoo",
         "Rating":4.1,
@@ -66,7 +71,8 @@
     },
     {
         "id":6,
-        "company": "amika",
+
+"Category":"New",        "company": "amika",
         "Image":"https://www.sephora.com/productimages/sku/s2735454-main-zoom.jpg?pb=clean-planet-positive-badge-2021&imwidth=175",
         "Product":"Super-Sized Signature Hai Set",
         "Rating":5,
@@ -79,84 +85,91 @@
     },
     {
         "id":7,
-        "company": "Pureology",
+
+"Category":"New",        "company": "Pureology",
         "Image":"https://www.sephora.com/productimages/sku/s2390755-main-zoom.jpg?imwidth=175",
         "Product":"Hydrate Shampoo for Dry, Color-Treated Hair",
         "Rating":4.1,
         "Rating_count":"2.1k",
         "Price":72,
-        "Gender":"Female",
+        "Gender":"Male",
         "Product_For":"Hair",
         "Hair_Type":"Curly",
         "Product_Type":"Shampoo"
     },
     {
         "id":8,
-        "company": "Olaplex",
+
+"Category":"New",        "company": "Olaplex",
         "Image":"https://www.sephora.com/productimages/sku/s2118867-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
         "Product":"No. 4Bond Maintenance Shampoo",
         "Rating":4,
         "Rating_count":"3k",
         "Price":30,
-        "Gender":"Female",
+        "Gender":"Male",
         "Product_For":"Hair",
         "Hair_Type":"Curly",
         "Product_Type":"oil/shampu/Vax/moiturizer"
     },
     {
         "id":9,
-        "company": "Moroccanoil",
+
+"Category":"New",        "company": "Moroccanoil",
         "Image":"https://www.sephora.com/productimages/sku/s2030336-main-zoom.jpg?imwidth=175",
         "Product":"Hydrating Shampoo",
         "Rating":3.9,
         "Rating_count":"1.9k",
         "Price":25,
-        "Gender":"Female",
+        "Gender":"Male",
         "Product_For":"Hair",
         "Hair_Type":"Curly",
         "Product_Type":"Shampoo"
     },
     {
         "id":10,
+        "Category":"New",
         "company": "Oribe",
         "Image":"https://www.sephora.com/productimages/sku/s2438166-main-zoom.jpg?imwidth=175",
         "Product":"Gold Lust Repair & Restore Shampoo",
         "Rating":3.8,
         "Rating_count":"861",
         "Price":50,
-        "Gender":"Female",
+        "Gender":"Male",
         "Product_For":"Hair",
         "Hair_Type":"Curly",
-        "Product_Type":"Shampu"
+        "Product_Type":"Shampoo"
     },
     {
         "id":11,
+        "Category":"New",
         "company": "Sol de Janeiro",
         "Image":"https://www.sephora.com/productimages/sku/s2673028-main-zoom.jpg?imwidth=175",
         "Product":"Brazilian Joia Strengthening + Smoothing Conditioner",
         "Rating":4.1,
         "Rating_count":"102",
         "Price":12,
-        "Gender":"Female",
+        "Gender":"Male",
         "Product_For":"Hair",
         "Hair_Type":"Straight",
         "Product_Type":"Conditioner"
     },
     {
         "id":12,
+        "Category":"New",
         "company": "Moroccanoil",
         "Image":"https://www.sephora.com/productimages/sku/s2030344-main-zoom.jpg?imwidth=175",
         "Product":"Mimi Honey Infused Hair Oil",
         "Rating":4.2,
         "Rating_count":"1.6k",
         "Price":12,
-        "Gender":"Female",
+        "Gender":"Male",
         "Product_For":"Hair",
         "Hair_Type":"Both",
         "Product_Type":"Conditioner"
     },
     {
         "id":13,
+        "Category":"New",
         "company": "Olaplex",
         "Image":"https://www.sephora.com/productimages/sku/s2118875-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
         "Product":"No. 5 Bond Maintenance Conditioner",
@@ -170,6 +183,7 @@
     },
     {
         "id":14,
+        "Category":"Old",
         "company": "Necessaire",
         "Image":"https://www.sephora.com/productimages/sku/s2608727-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge&imwidth=175",
         "Product":"The Conditioner-Hydrating cream with Hyaluronic Acid, Niacinamide + Panthenol",
@@ -183,6 +197,7 @@
     },
     {
         "id":15,
+        "Category":"Old",
         "company": "dae",
         "Image":"https://www.sephora.com/productimages/sku/s2353571-main-zoom.jpg?pb=2020-03-sephora-clean-2019&imwidth=175",
         "Product":"Signature Conditioner",
@@ -196,6 +211,7 @@
     },
     {
         "id":16,
+        "Category":"Old",
         "company": "The Ordinary",
         "Image":"https://www.sephora.com/productimages/sku/s2210722-main-zoom.jpg?imwidth=175",
         "Product":"Mukti-Peptide Serum for Hair Density",
@@ -207,7 +223,9 @@
         "Hair_Type":"Straight",
         "Product_Type":"Oilr"
     },
-    {"id":17,
+    {
+        "id":17,
+        "Category":"Old",
         "company": "Kerastase",
         "Image":"https://www.sephora.com/productimages/sku/s2126985-main-zoom.jpg?imwidth=175",
         "Product":"Elixir Ultime Hydrating Hair Oil Serum",
@@ -221,6 +239,7 @@
     },
     {
         "id":18,
+        "Category":"Old",
         "company": "Dyson ",
         "Image":"https://www.sephora.com/productimages/sku/s2683332-main-zoom.jpg?imwidth=175",
         "Product":"Airstrait Straightener",
@@ -234,6 +253,7 @@
     },
     {
         "id":19,
+        "Category":"Old",
         "company": "Shark Beauty",
         "Image":"https://www.sephora.com/productimages/sku/s2712800-main-zoom.jpg?imwidth=175",
         "Product":"Shark SpeedStyle RapidGloss Finisher and High-Velocity Hair Dryer for Straight and Wavy Hair",
@@ -247,6 +267,7 @@
     },
     {
         "id":20,
+        "Category":"Old",
         "company": "BondiBoost",
         "Image":"https://www.sephora.com/productimages/sku/s2712099-main-zoom.jpg?imwidth=175",
         "Product":"3'Blowout Brush Pro 3-in-1 Hair Dryer Brush ",
@@ -260,6 +281,7 @@
     },
     {
         "id":21,
+        "Category":"Old",
         "company": "https://www.sephora.com/productimages/sku/s2015691-main-zoom.jpg?pb=2023-03-sephora-value-2023&imwidth=175",
         "Image":"https://www.sephora.com/productimages/sku/s2015691-main-zoom.jpg?pb=2023-03-sephora-value-2023&imwidth=175",
         "Product":"Tame: Infrared Flat Iron",
@@ -273,6 +295,7 @@
     },
     {
         "id":22,
+        "Category":"Old",
         "company": "Shark Beauty",
         "Image":"https://www.sephora.com/productimages/sku/s2712768-main-zoom.jpg?imwidth=175",
         "Product":"Shark SmoothStyle Heated Comb + Blow Dryer Brush",
@@ -286,6 +309,7 @@
     },
     {
         "id":23,
+        "Category":"Old",
         "company": "Dyson",
         "Image":"https://www.sephora.com/productimages/sku/s2585420-main-zoom.jpg?pb=allure-2022-bestofbeauty-badge&imwidth=175",
         "Product":"Supersonick hair Dryer",
@@ -299,6 +323,7 @@
     },
     {
         "id":24,
+        "Category":"Old",
         "company": "shark Beauty",
         "Image":"https://www.sephora.com/productimages/sku/s2712834-main-zoom.jpg?imwidth=175",
         "Product":"Shark Speedstyle DeFrizzFast Diffuser",
@@ -312,6 +337,7 @@
     },
     {
         "id":25,
+        "Category":"Old",
         "company": "SEPHORA COLLECTION",
         "Image":"https://www.sephora.com/productimages/sku/s2555639-main-zoom.jpg?imwidth=175",
         "Product":"SC X Wetbrush Mimi Detangler Hair Brush",
