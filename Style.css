@@ -252,7 +252,7 @@ body{
 .mainParent{
     display: grid;
     grid-template-columns: auto 1fr;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
    
    
@@ -463,6 +463,195 @@ text-decoration: underline;
 .footer_promo p{
     font-size: 16px;
     padding-top: 5px;
+}
+.main_chosen{
+    height: auto;
+    width: 100%;
+  
+    
+
+}
+#Chosen_heading{
+    margin-left: 55px;
+    font-size: 22px;
+    margin-top: -20;
+}
+.chosen_box{
+    height: 280px;
+    width: 95%;
+    
+   
+   margin: 20px 0;
+   margin-left: 30px; 
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+    
+
+}
+.box_chosenSec{
+    height:270px;
+   margin-left: 20px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   overflow: hidden;
+   position: relative;
+   transition: margin-top 0.3s ease;
+   border-radius: 5px;
+    
+}
+.box_chosenSec:hover{
+    margin-top: 10px;
+
+}
+.box_chosenSec img{
+    height: 60%;
+    margin-top: 10px;
+}
+.box_chosenSec p{
+    margin-left: 12px;
+    margin-top: 15px;
+    line-height: 0.5;
+}
+.quick-look{
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    background-color: grey;
+    color: white;
+    width: 65%;
+    height: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.box_chosenSec:hover .quick-look{
+    opacity: 1;
+}
+.beauty_offers{
+    height: auto;
+    width: auto;
+   
+
+}
+.beauty_box{
+    height: auto;
+    width: auto;
+    
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 240px);
+    gap: 10px;
+}
+.beauty_sect{
+    
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.beauty_offers h3{
+    margin-left: 52px;
+    font-size: 22px;
+}
+.beauty_sect img{
+    width: 100%;
+}
+.beauty_sect p{
+    margin-left: 8px;
+    line-height: 1.3;
+    font-size: 14px;
+    line-break: auto;
+    text-transform: capitalize;
+
+}
+#subSec_offers{
+    color: grey
+}
+.beauty_sect button{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: center;
+    width: 110px;
+    height: 30px;
+}
+#details_btn{
+    margin-left: 20px;
+    color: blue;
+}
+.beauty_sect:hover{
+    margin-top: 3px;
+}
+
+.main_chosen1{
+    height: auto;
+    width: 100%;
+  
+    
+
+}
+#Chosen_heading2{
+    margin-left: 55px;
+    font-size: 22px;
+    margin-top: -20;
+}
+.chosen_box1{
+    height: 280px;
+    width: 95%;
+    
+   
+   margin: 20px 0;
+   margin-left: 30px; 
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+    
+
+}
+.box_chosenSec1{
+    height:360px;
+   margin-left: 20px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   overflow: hidden;
+   position: relative;
+   transition: margin-top 0.3s ease;
+   border-radius: 5px;
+    
+}
+.box_chosenSec1:hover{
+    margin-top: 10px;
+
+}
+.box_chosenSec1 img{
+    height: 50%;
+    margin-top: 10px;
+}
+.box_chosenSec1 p{
+    margin-left: 12px;
+    margin-top: 15px;
+    line-height: 0.5;
+}
+
+.box_chosenSec1:hover .quick-look{
+    opacity: 1;
+}
+.box_chosenSec1 button{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    margin-top: 17px;
+}
+#Chosen_heading1{
+    margin-left: 55px;
+    margin-top: -20;
 }
 
 
