@@ -1,0 +1,115 @@
+
+
+#prodFilters{
+    display: grid;
+    grid-template-columns: 1fr 5fr ;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 20px;
+}
+
+
+#product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+#product > div {
+    
+    padding:15px;
+    
+}
+#product >h3{
+    text-align: center;
+    color: red;
+}
+
+#product > div> img{
+    
+    text-align: center;
+}
+
+.filtButtonVertical {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333; 
+    transition: color 0.3s ease;
+}
+.filtButtonVertical:hover{
+    color: #0d0d0e; 
+    text-decoration: underline;
+}
+
+.lable{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.lable:hover{
+    color: #0a0a0a;
+}
+
+.select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.select:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+
+}
+
+.select::after{
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555;
+}
+
+
+.customButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: #0d0d0e;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.buttonText {
+    margin-right: 10px;
+}
+.buttonText:hover{
+    color: #464646;
+}
+
+.buttonImg {
+    width: 20px; /* Adjust the width of the image as needed */
+}
+
+
+.filtButtonHorizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}

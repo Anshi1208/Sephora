@@ -40,6 +40,17 @@
 </html>
 
 <script>
+    // log in Authenticated Start
+let isAuth =localStorage.getItem("isAutho") ||"Not Authenticated"
+
+if(isAuth !== "Authenticated"){
+    
+    window.location.href="../signUp_LogIn/SignUp.html"
+    
+}
+// log in Authenticated end
+
+
     let cartTotal=document.getElementById("cartTotal")
     let cartProduct = document.getElementById("cartProduct")
     let cartDetails=JSON.parse(localStorage.getItem("cartDetails")) || []
