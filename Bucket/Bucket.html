@@ -30,9 +30,39 @@
     
 
         }
+        button {
+    background-color: #0f140f; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: rgb(21, 16, 16)
+}
     </style>
 </head>
 <body>
+    <script>
+        // log in Authenticated Start
+        let sigUp = localStorage.getItem("userDetail")
+
+        let logIn =localStorage.getItem("isAutho")
+
+        if(!sigUp){
+    
+        window.location.href="../signUp_LogIn/SignUp.html"
+    
+        }else if(logIn==="Not Authenticated"){
+            window.location.href="../signUp_LogIn/LogIn.html"
+
+        }
+       // log in Authenticated end
+
+    </script>
     <h1>Cart <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkIKw4m3tR1wq4cgUv8SZLJK0Pi0VaE9j_bNVmbEtIYLn2PJbzMFd&usqp=CAE&s" alt=""></h1>
     <h3 id="cartTotal"></h3>
     <div id="cartProduct"></div>
@@ -40,15 +70,7 @@
 </html>
 
 <script>
-    // log in Authenticated Start
-let isAuth =localStorage.getItem("isAutho") ||"Not Authenticated"
 
-if(isAuth !== "Authenticated"){
-    
-    window.location.href="../signUp_LogIn/SignUp.html"
-    
-}
-// log in Authenticated end
 
 
     let cartTotal=document.getElementById("cartTotal")

@@ -1,12 +1,4 @@
-// log in Authenticated Start
-let isAuth =localStorage.getItem("isAutho") ||"Not Authenticated"
 
-if(isAuth !== "Authenticated"){
-    
-    window.location.href="../signUp_LogIn/SignUp.html"
-    
-}
-// log in Authenticated end
 
 let productDiv =document.getElementById("product")
 

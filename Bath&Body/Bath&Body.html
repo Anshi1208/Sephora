@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="../Style.css">
 </head>
 <body>
+    <script>
+        // log in Authenticated Start
+        let sigUp = localStorage.getItem("userDetail")
+
+        let logIn =localStorage.getItem("isAutho")
+
+        if(!sigUp){
+    
+        window.location.href="../signUp_LogIn/SignUp.html"
+    
+        }else if(logIn==="Not Authenticated"){
+            window.location.href="../signUp_LogIn/LogIn.html"
+
+        }
+       // log in Authenticated end
+
+    </script>
+    
     <!--Promotional Top Section-->
     <div class="promotional-bar" id="promoBar">
         <p><span class="highlight"><b>Get 50% off** Top Skincare Brands!</b></span> &nbsp;New Deals Everyday through 1/17. **Terms Apply. <b>SHOP NOW</b></p>

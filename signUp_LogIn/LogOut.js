@@ -4,7 +4,7 @@ if(isAuth === "Authenticated"){
     let navbar = document.querySelector(".main-nav")
     let div = document.createElement("div")
     let button=document.createElement("button")
-    button.innerText="Logout"
+    button.innerText="LogOut"
     button.className = "logoutButton";
 
     let styles = `

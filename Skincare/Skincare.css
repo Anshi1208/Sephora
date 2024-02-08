@@ -104,6 +104,20 @@
     width: 20px; /* Adjust the width of the image as needed */
 }
 
+button {
+    background-color: #0f140f; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: rgb(21, 20, 20)
+}
+
 
 .filtButtonHorizontal{
     display: flex;
