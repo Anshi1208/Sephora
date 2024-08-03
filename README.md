@@ -1,27 +1,25 @@
-Project Description:-
+***Project Description:-***
 
 This project is a clone of the Sephora website, created to demonstrate web development skills. It replicates certain features of the original Sephora webpage, including a product filter option and other functionalities.
 
-Features
+***Features***
 
-
-Product Filter:-
+***Product Filter:-***
 
  Allows users to filter products based on various criteria.
 
-Product Listings:-
+***Product Listings:-***
 
 Displays a range of beauty products with details such as images, names, and prices.
 
-Static Pages:- 
+***Static Pages:-***
 
 Includes static pages similar to the original Sephora website, such as the homepage and product details page.
 
-Technologies Used:-
+***Technologies Used:-***
 
+***HTML5:-*** For the structure and layout of the webpage.
 
-HTML5:- For the structure and layout of the webpage.
+***CSS3:-*** For styling and layout.
 
-CSS3:- For styling and layout.
-
-JavaScript:- For interactive elements and dynamic content.
+***JavaScript:-*** For interactive elements and dynamic content.
